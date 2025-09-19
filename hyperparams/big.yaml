@@ -1,0 +1,14 @@
+lr0: 0.001
+momentum: 0.937
+weight_decay: 0.0005
+optimizer: SGD
+imgsz: 512
+batch: 8
+epochs: 500
+augment: true
+multi_scale: true
+amp: true
+save_period: 50
+workers: 1       # Limit DataLoader workers to 1 (reduces memory usage)
+save: false      # Disable saving intermediate models
+plots: false     # Disable plotting to reduce disk usage

@@ -1,0 +1,16 @@
+train:
+    - ./dire/train/images
+val: 
+    - ./dire/test/images
+    - ./dire/valid/images
+test: ./dire/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: prgxlin
+  project: elephants-pure
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prgxlin/elephants-pure/dataset/2

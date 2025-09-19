@@ -1,0 +1,14 @@
+ train:
+     - /fs/nexus-scratch/zeorymer/synth_training/new-set-512/
+ val: ./dire/train/images
+ test: ./dire/train/images
+ 
+ nc: 1
+ names: ['0']
+ 
+ roboflow:
+   workspace: prgxlin
+   project: elephants-pure
+   version: 2
+   license: CC BY 4.0
+   url: https://universe.roboflow.com/prgxlin/elephants-pure/dataset/2
