@@ -41,3 +41,16 @@ python scripts/tune.py --data sets/data.yaml
 ## Google Drive For Blender Sim and Backgrounds  
 #Blender project files and backgrounds:https://drive.google.com/drive/folders/131eGJ5P7uJMqY3SAge9DGGt4Ew7bsrtA?usp=drive_link
 
+## Citation
+
+If you use this repository, please cite:
+
+```bibtex
+@article{duporge2025rhinodetection,
+  title   = {Automated Rhinoceros Detection in Satellite Imagery using Deep Learning},
+  author  = {Duporge, I. and Lin, X. and Palnitkar, A. and Suresh, A. and Isupova, O. and Rubenstein, D. and Aloimonos, J. Y.},
+  journal = {Scientific Reports},
+  year    = {2025}
+}
+
+
