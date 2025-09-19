@@ -15,6 +15,8 @@ This repo provides scripts and configs for training and evaluating a YOLOv12 mod
 - **sets/** – dataset configs (`data.yaml`, etc.)
 - **hyperparams/** – training configs (learning rate, batch size, etc.)
 
+
+
 ## Usage
 
 ```bash
@@ -35,6 +37,7 @@ python scripts/detect.py --data sets/data.yaml --weights runs/train/exp/weights/
 
 # Hyperparameter tuning
 python scripts/tune.py --data sets/data.yaml
-
+```
 ## Google Drive For Blender Sim and Backgrounds  
 #Blender project files and backgrounds:https://drive.google.com/drive/folders/131eGJ5P7uJMqY3SAge9DGGt4Ew7bsrtA?usp=drive_link
+
